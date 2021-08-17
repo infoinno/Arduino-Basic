@@ -5,7 +5,7 @@
 #define DHTTYPE DHT11
 DHT dht(pinDHT, DHTTYPE);
 
-LiquidCrystal_I2C lcd(0x27,20,4);
+LiquidCrystal_I2C lcd(0x27,16,2);
 
 int count = 0;
 
